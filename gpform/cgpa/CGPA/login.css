@@ -1,0 +1,103 @@
+.all-login {
+    background-image: linear-gradient(to right bottom, #94d4af59, #9ad6d882, #d6c3d39e, #c5bf9f, #bbbda0), url(harvardstudents.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 97.45vh;
+}
+.login-page {
+    width: 360px;
+    padding: 10% 0 0;
+    margin: auto;
+}
+.header {
+    background-color: rgb(228, 194, 170);
+    border-bottom: 1px solid #f0f0f0;
+    padding: 8px 30px;
+    margin-bottom: 4px;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+.header h2{
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 1.6rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.form .login-form{
+    position: relative;
+    background: linear-gradient(to bottom, #c1c78c, #d0e60c);
+    z-index: 1;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    border-radius: 10px;
+}
+.form .register-form{
+    position: relative;
+    background: linear-gradient(to bottom, #c1c78c, #d0e60c);
+    z-index: 1;
+    max-width: 375px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    display: none;
+}
+.form .register-form{
+    margin-bottom: 4rem;
+    margin-top: -5rem;
+}
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 1;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 5px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+.form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+}
+.form button:hover, .form button:active {
+    background: #43a047;
+}
+.form-control small {
+    position: relative;
+    margin: -0.2rem 0 0.4rem 0;
+    float: left;
+    color: #e74c3c;
+    font-size: 13.7px;
+    border-radius: 2rem;
+    text-transform: lowercase;
+    visibility: hidden;
+}
+.form-control.error small {
+    visibility: visible;
+    color: #e74c3c;
+    border-color: #e74c3c;
+}
+.form-control.success input {
+    outline-style: solid;
+    outline-color: rgb(10, 243, 29);
+    outline-width: thin;
+    background-color: rgb(179, 230, 204);
+}
+.form-control.error input {
+    outline-style: solid;
+    outline-color: red;
+    outline-width: thin;
+    background-color: rgb(209, 183, 183);
+}
